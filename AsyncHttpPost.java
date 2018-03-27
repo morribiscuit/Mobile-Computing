@@ -19,6 +19,7 @@ public class AsyncHttpPost extends AsyncTask {
 
         this.handler = handler;
     }
+    //Async hadnler
     @Override
     protected String doInBackground(Object... params) {
         byte[] result = null;
